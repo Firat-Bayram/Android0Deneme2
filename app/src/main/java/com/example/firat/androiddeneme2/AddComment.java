@@ -106,6 +106,7 @@ public class AddComment extends Activity implements OnClickListener {
                 // full json response
                 helper.yazLog(Helper.logTypes.debug, "Post Comment attempt", json.toString());
 
+
                 // json success element
                 success = json.getInt(TAG_SUCCESS);
                 if (success == 1) {
